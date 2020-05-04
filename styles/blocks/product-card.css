@@ -77,6 +77,8 @@
   line-height: 19px; }
 
 .product-card__button {
+  text-decoration: none;
+  text-transform: uppercase;
   height: 40px;
   padding-top: 11px;
   color: #fff;
@@ -84,8 +86,6 @@
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
   display: block;
   border: 1px solid #00acdc;
   border-radius: 5px;

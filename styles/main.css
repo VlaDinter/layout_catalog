@@ -34,13 +34,13 @@ body {
   display: flex; }
 
 .nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
   height: 15px;
   padding: 22.5px 0;
   margin-right: 20px;
   color: #000;
   line-height: 14px;
-  text-decoration: none;
-  text-transform: uppercase;
   position: relative;
   display: inline-block; }
   .nav__link:hover {
@@ -68,6 +68,8 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  width: 944px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -186,6 +188,8 @@ body {
   line-height: 19px; }
 
 .product-card__button {
+  text-decoration: none;
+  text-transform: uppercase;
   height: 40px;
   padding-top: 11px;
   color: #fff;
@@ -193,8 +197,6 @@ body {
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
   display: block;
   border: 1px solid #00acdc;
   border-radius: 5px;
