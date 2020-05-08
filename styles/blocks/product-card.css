@@ -3,10 +3,7 @@
   font-size: 12px; }
 
 .product-list__product-card {
-  width: 200px;
   padding: 14px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   border: 1px solid #f3f3f3;
   border-radius: 5px; }
 
