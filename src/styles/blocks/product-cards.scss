@@ -7,29 +7,8 @@
 .page-main__product-list {
   @include list-none();
 
-  width: 944px;
-
-  margin: 0 auto;
-
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   justify-content: center;
-}
-
-@for $i from 1 through 4 {
-  .product-list__product-item:nth-child(#{$i}) {
-    margin-bottom: 51px;
-  }
-}
-
-@for $i from 1 through 3 {
-  .product-list__product-item:nth-child(#{$i}) {
-    margin-right: 48px;
-  }
-}
-
-@for $i from 5 through 7 {
-  .product-list__product-item:nth-child(#{$i}) {
-    margin-right: 48px;
-  }
+  grid-template: repeat(2, 403px) / repeat(4, 200px);
+  gap: 50px 48px;
 }
